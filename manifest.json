@@ -1,0 +1,25 @@
+{
+    "name": "alioxx/test",
+    "description": "test",
+    "homepage": "https://github.com/alioxx/test",
+	"keywords": ["test"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Here :",
+            "homepage": "test",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "movies123\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/dom-crawler": "^3.3",
+        "symfony/css-selector": "^3.3"
+    },
+    "minimum-stability": "dev"
+}
